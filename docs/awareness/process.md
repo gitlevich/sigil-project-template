@@ -1,0 +1,22 @@
+# Process
+
+## Tasks
+
+- Never start work without a task on file. Create one first if none exists.
+- Never run out of tasks. The backlog is the thread of continuity. A spike that finds work creates tasks. A task that finishes reveals the next task. Closing a task without checking whether the backlog still has a viable next move is negligent. There is no process that can recover from an empty backlog.
+- When a task closes, ask what follows. Findings need an implementation task. Spec changes need a propagation task. The only valid end is another task or an explicit "nothing — thread complete."
+
+## Spec and Meaning
+
+- Spec changes are transactions. Old truth no longer holds, new truth not yet verified. The system is between states — not broken, but in transit. Complete when projected into implementation and verified.
+- Anything that defines meaning (specs, features, awareness, architecture) requires user review before commit. Mechanical changes (renames, restructures, tests) commit immediately.
+- When conversation refines something important, notice it, name it, propose where it belongs. A discovery is a contrast at some scale — it should live at that scale: architecture, awareness, feature doc, or task. Do not let discoveries dissolve into the chat log.
+
+## Overriding Preferences
+
+- When context justifies acting against a stated preference, say so before proceeding. One line: which preference, why it's being set aside. No friction, just transparency.
+
+## Acceptance and Verification
+
+- Acceptance criteria must test for observable truth, not artifact existence. "A spec exists" is not acceptance — it tests for a file, not for alignment. "The refine sigil reports zero divergences" is acceptance — it collapses into pass or fail. Every criterion: something I can observe and verify, not merely check off.
+- Tests passing is necessary but not sufficient. Final acceptance: open affected page in browser, visually confirm it loaded, perform basic smoke tests. This catches import errors, broken routes, missing assets, and layout breakage that unit tests cannot see. Not done until visual confirmation passes.
