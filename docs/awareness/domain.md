@@ -1,10 +1,5 @@
 # Domain
 
-## Vision
-
-<!-- Paste a one-paragraph summary of your vision here. This gives the agent
-quick access to the domain without reading the full vision.md. -->
-
 ## Language Rules
 
 - Use domain vocabulary exactly. No synonyms, no paraphrasing, no generic terms when a precise domain term exists.

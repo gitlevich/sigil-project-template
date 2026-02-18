@@ -1,5 +1,13 @@
 # Project Instructions
 
+## Template Upstream
+
+<!-- This is NOT this project's git remote. This is the template repo this
+project was created from. The retrospective sigil uses it to push general
+learnings back to the template so future projects inherit them. -->
+
+- **Repo**: `git@github.com:gitlevich/sigil-project-template.git`
+
 ## Memory
 
 At session start, read `memory.md`.

@@ -53,7 +53,13 @@ I wait for the user to approve before making any changes.
 With approval:
 
 1. Apply project-specific changes to this project's files.
-2. For template-worthy changes: the user takes these to the template repository. I prepare the exact content but do not modify the template directly from a project session.
+2. For template-worthy changes, push them to the template upstream:
+   a. Read the repo URL from `## Template Upstream` in `CLAUDE.md`.
+   b. Look for the template repo as a sibling directory (next to this project on the local filesystem). If found, use it. If not, clone to `/tmp/sigil-template-update`.
+   c. Pull latest from the template remote.
+   d. Apply the approved changes. Do not touch the current project's working tree.
+   e. Commit with a message referencing the source project and the retrospective findings.
+   f. Push to the template remote.
 
 ## Step 5: Continuation
 

@@ -4,7 +4,7 @@ Files here are always loaded at session start. They define the ground rules — 
 
 ## Files
 
-- **domain.md** — The project's vocabulary. Terms, their exact definitions, and language rules. Also contains a short vision summary so the agent knows the domain without reading the full vision statement. Update this when the domain grows new terms or when a term's meaning is refined.
+- **domain.md** — The project's vocabulary. Terms, their exact definitions, and language rules. Update this when the domain grows new terms or when a term's meaning is refined. The project vision lives in `vision.md` at the root — not here.
 
 - **process.md** — Working discipline. Task management rules, spec-as-truth principle, acceptance criteria standards, and override transparency. Update this when the team discovers a new process failure mode or corrects a recurring mistake.
 
