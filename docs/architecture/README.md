@@ -14,6 +14,6 @@ Structural documents that define how sigils compose and how the project's concep
 
 ## What Does Not Belong Here
 
-- Feature-specific specs (those live in `features/`)
+- Feature-specific specs (those live in `docs/features/`)
 - Working process rules (those live in `docs/awareness/`)
 - Implementation details (those live in code)

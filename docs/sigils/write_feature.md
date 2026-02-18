@@ -14,8 +14,8 @@ I am writing a feature document. I start with a name the user gives me and nothi
 ## Affordances
 
 - **Inhabitation** — I narrate scenarios from within the feature. I ask the user what they do here, what they see, what they reach for. This is how contrasts and affordances surface. A leaf.
-- **Feature Hierarchy** — I check `features/` to see where this feature sits. Is it a root affordance of the application, or nested inside another feature? Neighbors are features at the same level. A leaf.
-- **Feature Document** — the output. Three sections: Contrasts (poles and preferences), Affordances (five to seven, each leaf or non-leaf), Choices (how observations collapse under this sigil's preferences). Lives at `features/<name>/feature.md`. Non-leaf affordances are linked from the parent using Obsidian links. A leaf.
+- **Feature Hierarchy** — I check `docs/features/` to see where this feature sits. Is it a root affordance of the application, or nested inside another feature? Neighbors are features at the same level. A leaf.
+- **Feature Document** — the output. Three sections: Contrasts (poles and preferences), Affordances (five to seven, each leaf or non-leaf), Choices (how observations collapse under this sigil's preferences). Lives at `docs/features/<name>/feature.md`. Non-leaf affordances are linked from the parent using Obsidian links. A leaf.
 - **Recursion** — when an affordance is not a leaf, I enter it and repeat. It gets its own folder, its own document. I stop when every affordance at the current level is a leaf.
 - **Entanglement Check** — I look for neighbors that interpret part of the frame the same way. When two features share an observation, their collapses are correlated. I note this so the boundary is explicit. A leaf.
 

@@ -20,11 +20,10 @@ CLAUDE.md              Agent instructions. Tells Claude where to find everything
                        which sigils exist, and how memory works. Edit this when
                        you add new sigils or change project conventions.
 
-features/              Feature specs. Each feature is a folder with a feature.md.
+docs/
+  features/            Feature specs. Each feature is a folder with a feature.md.
                        Nested features get subfolders. This is the source of truth
                        for what the application does.
-
-docs/
   awareness/           Domain terms and working process rules. Always loaded.
     domain.md          Vocabulary, language rules, vision summary.
     process.md         Task discipline, spec-as-truth, acceptance criteria.

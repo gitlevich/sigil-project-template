@@ -5,7 +5,7 @@ Each feature is a folder containing a `feature.md` that defines it through contr
 ## Directory Structure
 
 ```
-features/
+docs/features/
   observe/
     feature.md              Root feature spec
     filters/

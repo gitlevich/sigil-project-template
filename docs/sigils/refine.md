@@ -1,6 +1,6 @@
 # Refine
 
-Triggered by: "refine <feature>", "propagate spec", "refine features/..." etc.
+Triggered by: "refine <feature>", "propagate spec", "refine docs/features/..." etc.
 
 The user names a feature doc (or I infer it from context). I read the spec and compare it against the code. Where they diverge, the spec wins. I propagate naming, topology, and tests from spec into code. I only touch the subtree of the feature I am refining.
 

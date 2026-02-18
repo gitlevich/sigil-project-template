@@ -17,7 +17,7 @@ A thing belongs in awareness if it is:
 
 ## What Does Not Belong Here
 
-- Feature specs (those live in `features/`)
+- Feature specs (those live in `docs/features/`)
 - Architecture decisions (those live in `docs/architecture/`)
 - Session-specific state (that lives in `memory.md`)
 - Task details (those live in `docs/backlog/`)
