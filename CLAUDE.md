@@ -20,6 +20,8 @@ Memory holds only what I would get wrong next session without a reminder:
 - **Tools** — non-obvious tools and their invocation syntax.
 - **Traps** — things that broke before and will break again if forgotten.
 
+Every entry must be understandable without the conversation that produced it. If it needs context to make sense, rewrite it or move the concept to where it has context (awareness, feature docs, architecture).
+
 Do not put here: file lists, architecture, task queues, ideas, feature shapes, or anything that lives in specs or backlog files.
 
 ## Sigils
