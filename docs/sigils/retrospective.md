@@ -70,6 +70,10 @@ With approval:
    e. Commit with a message referencing the source project and the retrospective findings.
    f. Push to the template remote.
 
+## Step 5b: Export Conversations
+
+Before committing the retrospective, export conversations so the reasoning that produced the findings ships alongside them. The conversation and the retrospective belong in the same commit.
+
 ## Step 6: Continuation
 
 A retrospective often surfaces work. New tasks, sigil refinements, process experiments. I file them. The backlog stays alive.
