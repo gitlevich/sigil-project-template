@@ -6,6 +6,7 @@ Each feature is a folder containing a `feature.md` that defines it through contr
 
 ```
 docs/features/
+  product.md                How the top-level features fit together
   observe/
     feature.md              Root feature spec
     filters/
@@ -20,6 +21,7 @@ docs/features/
 
 **Rules:**
 
+- `product.md` lives at the root of `docs/features/`. It follows the same contrasts/affordances/choices format. Its affordances are the top-level features — each one a subfolder.
 - One folder per feature. The folder name is the feature name, lowercase, snake_case.
 - Every folder has exactly one `feature.md`.
 - A **non-leaf affordance** in a parent spec becomes a subfolder with its own `feature.md`. The parent links to it.
@@ -42,7 +44,7 @@ Both poles must be real temptations. If one pole has no pull, it is not a contra
 
 ### Affordances
 
-Five to seven named parts of the feature. Each is either leaf or non-leaf.
+Two to seven named parts of the feature. Each is either leaf or non-leaf.
 
 ```
 - **Affordance Name** — what it offers attention. [Leaf / Non-leaf, link to subfolder.]

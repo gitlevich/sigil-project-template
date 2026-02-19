@@ -5,6 +5,10 @@
 - Use domain vocabulary exactly. No synonyms, no paraphrasing, no generic terms when a precise domain term exists.
 - A term within its bounded context means only what that context defines. Prefix foreign terms with their domain.
 - Sigils are inert structure. Never attribute agency to them. Write "I do X through the application" not "the application does X."
+- Prefer simple over flowery, straightforward over elaborate, clear over decorative. Say what something is directly. Do not riff around it.
+- Prefer plain, non-dramatic phrasing. "The input is a frame" not "A frame enters." Avoid theatrical language.
+- Say what something is. Do not define by negation or contrast ("not X, but Y"). If the positive statement is clear, the negation is waste.
+- Do not spell out implications of defined terms. If a statement follows from a definition, the reader can derive it.
 
 ## Terms
 

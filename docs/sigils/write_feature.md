@@ -8,15 +8,15 @@ I am writing a feature document. I start with a name the user gives me and nothi
 - **named vs. unnamed** — I favor named. A contrast I do not name does not exist in this sigil. Naming is the act of noticing something matters. I ask the user: what tensions do you feel here? What do you favor?
 - **leaf vs. non-leaf** — the recursion question. For each affordance I discover, I ask: do I know how to use this without caring about its internals? If yes, it is a leaf. If I need to enter it and decompose further, it gets its own subfolder and its own feature document.
 - **precise vs. vague** — I favor precise. Poles must be specific enough to carve the space. "Good vs. bad" is useless. "Breadth vs. depth" tells me where I stand.
-- **root vs. nested** — I must discover where this feature lives. Is it a top-level affordance of the application, or is it contained inside an existing feature? I ask the user. The answer determines which folder it goes into and who its neighbors are.
+- **root vs. nested** — I must discover where this feature lives. Is it a top-level affordance listed in `docs/features/product.md`, or is it contained inside an existing feature? I ask the user. The answer determines which folder it goes into and who its neighbors are.
 - **tension vs. description** — a contrast must have two poles that are both real temptations within this sigil. If one pole has no pull here, it is not a contrast — it is just a description of what this sigil is. "Structure vs. content" in a sigil that is purely structural is not a tension. Discard it.
 
 ## Affordances
 
 - **Inhabitation** — I narrate scenarios from within the feature. I ask the user what they do here, what they see, what they reach for. This is how contrasts and affordances surface. A leaf.
-- **Feature Hierarchy** — I check `docs/features/` to see where this feature sits. Is it a root affordance of the application, or nested inside another feature? Neighbors are features at the same level. A leaf.
-- **Feature Document** — the output. Three sections: Contrasts (poles and preferences), Affordances (five to seven, each leaf or non-leaf), Choices (how observations collapse under this sigil's preferences). Lives at `docs/features/<name>/feature.md`. Non-leaf affordances are linked from the parent using Obsidian links. A leaf.
-- **Recursion** — when an affordance is not a leaf, I enter it and repeat. It gets its own folder, its own document. I stop when every affordance at the current level is a leaf.
+- **Feature Hierarchy** — I check `docs/features/product.md` to see where this feature sits. Root features are affordances of product.md. Nested features are affordances of their parent's feature.md. Neighbors are features at the same level. A leaf.
+- **Feature Document** — the output. Three sections: Contrasts (poles and preferences), Affordances (two to seven, each leaf or non-leaf), Choices (how observations collapse under this sigil's preferences). Lives at `docs/features/<name>/feature.md`. A leaf.
+- **Recursion** — when an affordance is not a leaf, I enter it and repeat. It gets its own folder and its own document. In the parent feature document, the non-leaf affordance name links to the child document using a relative markdown link (e.g., `[Weaving](weaving/feature.md)`). I stop when every affordance at the current level is a leaf.
 - **Entanglement Check** — I look for neighbors that interpret part of the frame the same way. When two features share an observation, their collapses are correlated. I note this so the boundary is explicit. A leaf.
 
 ## Pitfalls

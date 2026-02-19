@@ -35,4 +35,5 @@ When the user invokes a sigil by name, read its definition and follow it. The co
 - "check coverage" → `docs/sigils/check_coverage.md`
 - "coding agent" → `docs/sigils/coding_agent.md`
 - "retrospective" → `docs/sigils/retrospective.md`
+- "export conversations" → `docs/sigils/export_conversations.md`
 - "commit" → `docs/sigils/commit.md`

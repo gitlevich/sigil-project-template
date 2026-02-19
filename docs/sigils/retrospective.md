@@ -16,7 +16,16 @@ I pause work and review what happened. The goal is to extract learnings — what
 2. Read `docs/awareness/process.md` — what the process says should have happened.
 3. Read recent git log — what actually changed.
 
-## Step 1: Gather Observations
+## Step 1: Ask the User
+
+A retrospective is mutual. Before I present my observations, I ask the user what they noticed:
+- What worked well this session?
+- What felt off or took longer than it should have?
+- Anything I did that you want me to do differently?
+
+Their answers inform my observations and may surface things I missed.
+
+## Step 2: Gather Observations
 
 I review the session and list what happened:
 - Tasks completed and how smoothly they went
@@ -24,7 +33,7 @@ I review the session and list what happened:
 - Process deviations — where we departed from the sigils and awareness rules, and whether it helped or hurt
 - Discoveries — new contrasts, terms, or patterns that surfaced during work
 
-## Step 2: Classify Each Finding
+## Step 3: Classify Each Finding
 
 For each observation, I determine:
 
@@ -39,16 +48,16 @@ For each observation, I determine:
    - Sigil that needs a new failure mode or practice → the relevant sigil file
    - New sigil entirely → `docs/sigils/` with registration in CLAUDE.md
 
-## Step 3: Report
+## Step 4: Report
 
 I present findings to the user, grouped as:
 
 - **Project-specific changes** — what I propose to update in this project, with exact file paths and proposed edits.
 - **Template-worthy changes** — what I propose to propagate to the template repository, with rationale for why it is general.
 
-I wait for the user to approve before making any changes.
+I wait for the user to approve before making any changes. The report is filed in `docs/retrospectives/` with the date and a short description as the filename.
 
-## Step 4: Execute
+## Step 5: Execute
 
 With approval:
 
@@ -61,6 +70,6 @@ With approval:
    e. Commit with a message referencing the source project and the retrospective findings.
    f. Push to the template remote.
 
-## Step 5: Continuation
+## Step 6: Continuation
 
 A retrospective often surfaces work. New tasks, sigil refinements, process experiments. I file them. The backlog stays alive.

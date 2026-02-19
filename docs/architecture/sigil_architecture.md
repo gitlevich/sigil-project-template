@@ -64,7 +64,7 @@ A sigil can be replaced at any level without disturbing its neighbors. The paren
 
 ## Designing a Sigil
 
-I enter the sigil, letting it fill my entire frame. It becomes my bounded context. I look inside and name its parts. Each part is a sigil. A sigil contains five to seven parts — no more. This is the attention constraint: if I cannot hold all parts in one frame, I am inside the wrong sigil or I need to split it.
+I enter the sigil, letting it fill my entire frame. It becomes my bounded context. I look inside and name its parts. Each part is a sigil. A sigil contains two to seven parts — no more. This is the attention constraint: if I cannot hold all parts in one frame, I am inside the wrong sigil or I need to split it.
 
 Once I can describe this feature using only the names of its sigils, I am done at this level. Then I zoom into one child sigil at a time and repeat, recursively, until I reach the resolution I need. Then I stop.
 
