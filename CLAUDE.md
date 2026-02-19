@@ -38,3 +38,4 @@ When the user invokes a sigil by name, read its definition and follow it. The co
 - "export conversations" → `docs/sigils/export_conversations.md`
 - "search genesis" → `docs/sigils/search_genesis.md`
 - "commit" → `docs/sigils/commit.md`
+- "modeling" → `docs/sigils/modeling.md`

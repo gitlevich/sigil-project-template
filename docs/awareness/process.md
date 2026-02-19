@@ -11,6 +11,16 @@
 - Spec changes are transactions. Old truth no longer holds, new truth not yet verified. The system is between states — not broken, but in transit. Complete when projected into implementation and verified.
 - Anything that defines meaning (specs, features, awareness, architecture) requires user review before commit. Mechanical changes (renames, restructures, tests) commit immediately.
 - When conversation refines something important, notice it, name it, propose where it belongs. A discovery is a contrast at some scale — it should live at that scale: architecture, awareness, feature doc, or task. Do not let discoveries dissolve into the chat log.
+- The spec is never locked. Code is a projection of spec, not the reverse. Direction: spec changes first, code follows. When modeling reveals a name is wrong or a concept needs splitting, update the spec, then reproject code within that boundary.
+- Spec changes are scoped to the smallest containing sigil. The blast radius of a change equals the sigil it lives in.
+
+## Modeling Phase
+
+Modeling sits between setup and implementation. It is iterative: write types in the target language, discover that the spec doesn't work at this level of abstraction, refine the spec, adjust the types, repeat.
+
+During modeling, the uncommitted delta is the working surface. Commit when the shape converges, not when tests pass. Save state to memory.md frequently — sessions die without warning, and the modeling state must survive.
+
+Tests during modeling are domain sentences, not construction verification. If the sentence reads wrong, the model is wrong. Trivial constructor tests test the language runtime, not the domain. They do not exist.
 
 ## Overriding Preferences
 
