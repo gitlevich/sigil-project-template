@@ -39,3 +39,5 @@ When the spec→code loop matures (specs are precise, a reproject sigil exists, 
 - When an acceptance criterion requires a concrete commitment that cannot be fully defended yet — a threshold, a constraint, a design choice that feels somewhat arbitrary — defer it as an open question. ACs commit; open questions defer. The smell is "justified but not defensible."
 - "Explain this criterion" is a redundancy test. If the explanation restates another criterion, drop it.
 - Tests passing is necessary but not sufficient. Final acceptance: open affected page in browser, visually confirm it loaded, perform basic smoke tests. This catches import errors, broken routes, missing assets, and layout breakage that unit tests cannot see. Not done until visual confirmation passes.
+- ACs that say "favor X" without concrete bounds are contrasts, not acceptance criteria. Contrasts belong in the spec narrative; ACs must be testable.
+- Verbal urgency is not a reason to skip spec reading. It is a reason to slow down.
