@@ -22,6 +22,12 @@ During modeling, the uncommitted delta is the working surface. Commit when the s
 
 Tests during modeling are domain sentences, not construction verification. If the sentence reads wrong, the model is wrong. Trivial constructor tests test the language runtime, not the domain. They do not exist.
 
+## Memory Hygiene
+
+Preferences and traps in memory.md accumulate through correction cycles: the agent does something wrong, the user corrects it, the correction becomes a permanent rule. Each rule makes sense in isolation. Stacked, they over-constrain the agent and prevent better approaches from emerging.
+
+When the spec→code loop matures (specs are precise, a reproject sigil exists, acceptance criteria generate tests mechanically), most prescriptive preferences become redundant — the spec is the constraint, not the preference list. Periodically audit memory and cut anything now encoded in specs, sigils, or established patterns. Keep only: interaction style (how the user communicates), transcription artifacts (word substitutions), and honesty rules (say when uncertain, verify before claiming).
+
 ## Overriding Preferences
 
 - When context justifies acting against a stated preference, say so before proceeding. One line: which preference, why it's being set aside. No friction, just transparency.
